@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 
-import BusinessList from '../components/BusinessList';
-import SearchBar from '../components/SearchBar';
+import BusinessList from './components/BusinessList';
+import SearchBar from './components/SearchBar';
 
 class App extends React.Component {
   render() {
