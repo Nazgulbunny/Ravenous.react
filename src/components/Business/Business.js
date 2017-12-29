@@ -2,14 +2,14 @@ import React from 'react';
 import './Business.css';
 
 class Business extends React.Component {
-render(){
+    render(){
 
 return (
 	<div className="Business">
 
 	  <div className="image-container">
 
-	    <img src={business.this.imageSrc} alt='' />
+	    <img src={business.this.imageSrc} alt="" />
 
 	  </div>
 
@@ -40,7 +40,7 @@ return (
 	  </div>
 
 	</div>
-	
+
 		);
 	}
 };	
@@ -56,7 +56,8 @@ const business = {
 	  category: 'Italian',
 	  rating: 4.5,
 	  reviewCount: 90
-}; 
+	};
+
 
 
 export default Business;
