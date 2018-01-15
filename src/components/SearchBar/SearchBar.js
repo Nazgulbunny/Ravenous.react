@@ -19,7 +19,10 @@ constructor(props){
   renderSortByOptions() {
     return Object.keys(sortByOptions).map(sortByOption => {
       let sortByOptionValue = sortByOptions[sortByOption];
-      return <li key={sortByOptionValue}>{sortByOption}</li>;
+      return <li 
+      className ={this.getSortByClass(sortByOptionValue)} 
+      key={sortByOptionValue}>{sortByOption}
+      </li>;
     });
   }
 
