@@ -37,6 +37,18 @@ constructor(props){
   handleSortByChange(sortByOption){
      this.setState({sortBy:sortByOption});
   }
+
+  handleTermChange(event){
+    this.setState({
+    term = event.target.value
+  });
+  }
+
+handleLocationChange(event){
+    this.setState({
+    location = event.target.value
+  });
+  }
   render() {
     return (
       <div className="SearchBar">
