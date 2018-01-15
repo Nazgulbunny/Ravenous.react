@@ -24,14 +24,15 @@ constructor(props){
   }
 
   getSortByClass(sortByOption){
-  if (this.state.sortBy === sortByOption){
-  return "active";
-}else{
-  return "";
-}
-
-}
-
+    if (this.state.sortBy === sortByOption){
+    return "active";
+      }else{
+        return "";
+          }
+    }
+  handleSortByChange(sortByOption){
+     this.setState({sortBy:sortByOption});
+  }
   render() {
     return (
       <div className="SearchBar">
