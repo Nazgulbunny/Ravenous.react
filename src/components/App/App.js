@@ -4,7 +4,6 @@ import BusinessList from '../BusinessList/BusinessList';
 import SearchBar from '../SearchBar/SearchBar';
 import Yelp from '../../util/Yelp';
 
-
 class App extends React.Component {
   constructor(props) {
     super(props);
